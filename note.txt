@@ -1,0 +1,20 @@
+npm init
+yarn add -D typescript // here add -D menan dev dependencies // https://www.typescriptlang.org/download 
+npm install express // yarn add express
+npm install mongoose // yarn add mongoose
+for typescript configuration // tsc --init
+edite something ts config file = > "rootDir": "./src", & "outDir": "./dist", 
+
+create gitIgnore => .gitIgnore
+create env => install=>  yarn add dotenv => than crete => .env for environment variables
+
+create server.ts for database connection and app.ts for run your application
+
+server.ts setup your database connection . go to mongodb and crete account and go to => database access and create database , save user name and password . than go to => database and click on => connect => click on drivers=> then copy three number in uri link  and put it in evn file like that => DATABASE_URL=mongodb+srv://iqbal:DTp9DRZWA6pe2SC1@cluster0.c3fbyna.mongodb.net/?retryWrites=true&w=majority
+
+in a app folder express show problem and solve this problem by install this => yarn add -D  @types/express  
+
+
+
+
+https://www.npmjs.com/package/ts-node-dev for start server 

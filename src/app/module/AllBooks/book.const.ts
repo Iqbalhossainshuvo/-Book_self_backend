@@ -1,0 +1,1 @@
+export const bookSearchKey = ['author', 'title', 'genre', 'publicationDate'];
